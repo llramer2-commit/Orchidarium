@@ -5,7 +5,7 @@ import adafruit_dht
 import board
 
 ##pass function to pin on DHT22 sensor connected to pi
-dht_device = adafruit_dht.DHT22(board.D4)
+dht_device = adafruit_dht.DHT22(board.D3)
 
 ##start and infinite loop to read humidity constantly##
 while True: 
