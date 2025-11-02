@@ -1,0 +1,2 @@
+adafruit_dht==1.4.0
+board==1.0
