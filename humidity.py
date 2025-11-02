@@ -16,7 +16,7 @@ while True:
 
         print("Temp:{:.1f} C / {:.1f} F  Humidity: {}%.format(temperature_c, humidity)")
     except RuntimeError as error: 
-        print(err.args[0])
+        print(error.args[0])
         time.sleep(2.0)
         continue
     except Exception as error: 
